@@ -344,7 +344,7 @@ def select(fit_val, chrom):
 
 def cross(selected_chrom):
     #交叉 没想好怎么交叉
-    return selected_chrom
+    return  selected_chrom
     population_index = [key for key in selected_chrom] #[0, 1, 2, 3, 4, 5, ...., 49]
     crossed_chrom = {}
     counter = 0
