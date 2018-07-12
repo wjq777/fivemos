@@ -363,10 +363,6 @@ def cross(selected_chrom):
                 break
         chrom_tem = []
         #从中间交叉
-        chrom_tem.append(selected_chrom[tem[0]][0])  # 第一个父代的第1段
-        chrom_tem.append(selected_chrom[tem[0]][1])  # 第一个父代的第2段
-        chrom_tem.append(selected_chrom[tem[1]][2])  # 第二个父代的第3段
-        chrom_tem.append(selected_chrom[tem[1]][3])  # 第二个父代的第4段
 
         crossed_chrom[counter] = chrom_tem
         counter += 1
